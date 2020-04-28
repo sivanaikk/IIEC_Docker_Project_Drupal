@@ -39,7 +39,7 @@ I am using the MySQL as database to the ghost. mysql:5.7 and ghost:1-alphine ima
 ```
 docker pull mysql:5.7
 ```
-* To pull ghost
+* To pull drupal
 ```
 docker pull drupal:latest
 ```
