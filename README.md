@@ -11,16 +11,16 @@ It's also a great choice for creating integrated digital frameworks. You can ext
 The Drupal project is open source software. Anyone can download, use, work on, and share it with others. It's built on principles like collaboration, globalism, and innovation. It's distributed under the terms of the GNU General Public License (GPL). There are no licensing fees, ever. Drupal will always be free.
 
 ## 1. Pre-Configuration :
-REDHAT ENTERPRISES LINUX 8 and installed with Docker and Docker Compose .
+Ubuntu 18.04 LTS and installed with Docker and Docker Compose .
 * we need to download mysql to check database
 ```
-dnf install mysql
+apt-get install mysql
 ```
 
 ## 2. Install Docker 
 * Install docker 
 ``` 
-dnf install docker-ce
+apt-get install docker-ce
 ```
 * start docker 
 ```
