@@ -1,0 +1,17 @@
+version: '3'
+services:
+  lamp_img:
+    build: ./
+  lamp_dbos:
+    image: lamp_lamp_img
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_USER: ubuntu
+      MYSQL_PASSWORD: ubuntu_mysql
+      MYSQL_DATABASE: lamp_db
+    ports:
+    - "80:80"
+    - "3306:3306"
+volumes:
+  lamp_mysql_storage:
